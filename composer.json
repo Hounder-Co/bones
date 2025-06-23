@@ -1,0 +1,39 @@
+{
+  "name": "hounder/bones",
+  "description": "Base setup for Hounder Drupal projects.",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Dan Chadwick",
+      "homepage": "https://hounder.co",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "drupal/address": "^2.0",
+    "drupal/config_ignore": "^3.0",
+    "drupal/csp": "^2.0",
+    "drupal/field_group": "^3.0",
+    "drupal/gin": "^3.0",
+    "drupal/gin_login": "^2.0",
+    "drupal/gin_toolbar": "^1.0",
+    "drupal/openid_connect": "^3.0@alpha",
+    "drupal/pathauto": "^1.0",
+    "drupal/search_api": "^1.35",
+    "drupal/search_api_autocomplete": "^1.9",
+    "drupal/memcache": "^2.0",
+    "drupal/menu_block": "^1.0",
+    "drupal/metatag": "^2.0",
+    "drupal/redirect": "^1.0",
+    "drupal/robotstxt": "^1.0",
+    "drupal/seckit": "^2.0",
+    "drupal/token": "^2.0",
+    "drupal/twig_tweak": "^2.0",
+    "drupal/layout_builder_styles": "^2.1",
+    "drush/drush": "^13",
+    "drupal/field_group": "^3.0",
+    "drupal/layout_library": "^1.0@beta",
+    "drupal/html_formatter": "^2.0"
+  }
+}
