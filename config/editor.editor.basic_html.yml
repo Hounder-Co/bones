@@ -1,13 +1,9 @@
-
-
 langcode: en
 status: true
 dependencies:
   module:
     - editor
     - media
-_core:
-  default_config_hash: RjoJPQLCAE8u1Ys_yCKubpkYlRz_Oy12a5qCVeNIHJ8
 name: 'Basic HTML'
 format: basic_html
 weight: 0
