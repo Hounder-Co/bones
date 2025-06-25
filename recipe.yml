@@ -15,9 +15,12 @@ install:
   - contextual
   - csp
   - datetime
+  - datetime_range
   - dblog
   - dynamic_page_cache
   - editor
+  - editor_advanced_link
+  - field_group
   - field_ui
   - filter
   - gin
@@ -51,6 +54,7 @@ install:
   - text
   - telephone
   - toolbar
+  - twig_tweak
   - user
   - views
   - views_ui
