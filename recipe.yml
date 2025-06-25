@@ -4,53 +4,53 @@ type: 'Site'
 
 install:
   - address
-  - config
-  - node
-  - user
-  - text
-  - link
-  - filter
+  - big_pipe
   - block
   - block_content
   - ckeditor5
-  - contextual
-  - menu_link_content
-  - datetime
-  - block_content
-  - editor
-  - image
-  - menu_ui
-  - options
-  - path
-  - dynamic_page_cache
-  - big_pipe
-  - taxonomy
-  - dblog
-  - toolbar
-  - field_ui
-  - media
-  - media_library
-  - views
-  - views_ui
   - claro
+  - config
+  - config_ignore
+  - contextual
+  - csp
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field_ui
+  - filter
   - gin
   - gin_login
   - gin_toolbar
-  - config_ignore
-  - pathauto
+  - image
+  - layout_builder
+  - layout_discovery
+  - link
+  - media
+  - media_library
   - memcache
-  - redirect
-  - robotstxt
   - menu_block
-  - csp
+  - menu_link_content
+  - menu_ui
   - metatag
   - metatag_open_graph
   - metatag_verification
-  - layout_builder
-  - layout_discovery
-  - seckit
+  - node
+  - options
+  - path
+  - pathauto
+  - redirect
+  - robotstxt
   - search_api
   - search_api_autocomplete
+  - seckit
+  - taxonomy
+  - text
+  - telephone
+  - toolbar
+  - user
+  - views
+  - views_ui
 
 config:
   import:
@@ -65,10 +65,8 @@ config:
       - redirect.settings
       - system.action.redirect_delete_action
       - views.view.redirect
-    node:
-      - views.view.content
-    user:
-      - views.view.user_admin_people
+    node: '*'
+    user: '*'
     gin:
       - block.block.gin_breadcrumbs
       - block.block.gin_content
@@ -112,5 +110,4 @@ config:
       simple_config_update:
         admin: 'gin'
         default: 'stark'
-
 
