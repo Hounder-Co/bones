@@ -57,6 +57,7 @@ install:
   - user
   - views
   - views_ui
+  - editor_advanced_link
 
 config:
   import:
