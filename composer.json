@@ -12,6 +12,7 @@
   ],
   "require": {
     "drupal/address": "^2.0",
+    "drupal/admin_toolbar": "^3.0",
     "drupal/config_ignore": "^3.0",
     "drupal/csp": "^2.0",
     "drupal/field_group": "^3.0",
@@ -33,7 +34,6 @@
     "drupal/layout_builder_styles": "^2.1",
     "drush/drush": "^13",
     "drupal/field_group": "^3.0",
-    "drupal/layout_library": "^1.0@beta",
     "drupal/html_formatter": "^2.0"
   }
 }
