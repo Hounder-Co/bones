@@ -62,6 +62,7 @@ install:
 config:
   import:
     seckit: '*'
+    editor_advanced_link: '*'
     address: '*'
     dblog: '*'
     image: '*'
