@@ -19,6 +19,7 @@ install:
   - dblog
   - dynamic_page_cache
   - editor
+  - editor_advanced_link
   - field_group
   - field_ui
   - filter
@@ -57,7 +58,6 @@ install:
   - user
   - views
   - views_ui
-  - editor_advanced_link
 
 config:
   import:
