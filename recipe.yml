@@ -66,7 +66,8 @@ config:
       - system.action.redirect_delete_action
       - views.view.redirect
     node: '*'
-    user: '*'
+    user:
+      - views.view.user_admin_people
     gin:
       - block.block.gin_breadcrumbs
       - block.block.gin_content
