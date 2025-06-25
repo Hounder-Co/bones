@@ -33,6 +33,7 @@
     "drupal/token": "^1.0",
     "drupal/twig_tweak": "^3.0",
     "drupal/layout_builder_styles": "^2.1",
+    "drupal/layout_builder_iframe_modal": "^1.0",
     "drush/drush": "^13",
     "drupal/field_group": "^3.0",
     "drupal/html_formatter": "^2.0"

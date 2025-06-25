@@ -29,6 +29,7 @@ install:
   - image
   - html_formatter
   - layout_builder
+  - layout_builder_iframe_modal
   - layout_discovery
   - layout_builder_styles
   - link
