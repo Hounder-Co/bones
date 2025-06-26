@@ -36,6 +36,7 @@
     "drupal/layout_builder_iframe_modal": "^1.0",
     "drush/drush": "^13",
     "drupal/field_group": "^3.0",
-    "drupal/html_formatter": "^2.0"
+    "drupal/html_formatter": "^2.0",
+    "drupal/color_field": "^3.0"
   }
 }
