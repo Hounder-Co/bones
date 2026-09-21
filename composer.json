@@ -16,7 +16,7 @@
     "drupal/config_ignore": "^3.0",
     "drupal/csp": "^2.0",
     "drupal/editor_advanced_link": "^2.0",
-    "drupal/field_group": "^3.0",
+    "drupal/field_group": "^4.0",
     "drupal/gin": "^5.0",
     "drupal/gin_login": "^2.0",
     "drupal/gin_toolbar": "^3.0",
@@ -37,6 +37,6 @@
     "drush/drush": "^13",
     "drupal/field_group": "^3.0",
     "drupal/html_formatter": "^2.0",
-    "drupal/color_field": "^4.0"
+    "drupal/color_field": "^3.0"
   }
 }
